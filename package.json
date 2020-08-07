@@ -1,11 +1,10 @@
 {
   "name": "@universe/rfc6902",
-  "version": "4.0.0",
+  "version": "5.0.0-beta",
   "description": "Complete implementation of RFC6902 (patch and diff)",
   "main": "index.js",
   "types": "index.d.ts",
   "browser": "dist/rfc6902.min.js",
-  "private": true,
   "keywords": [
     "json",
     "patch",
@@ -20,7 +19,9 @@
     "@types/js-yaml": "3.12.3",
     "@types/node": "^12.12.38",
     "ava": "^3.8.2",
+    "closure-compiler-cli": "^1.0.4",
     "coveralls": "^3.1.0",
+    "google-closure-compiler": "^20200719.0.0",
     "js-yaml": "3.13.1",
     "nyc": "^15.0.1",
     "rollup": "^1.32.1",
