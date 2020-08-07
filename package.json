@@ -1,7 +1,11 @@
 {
-  "name": "rfc6902",
+  "name": "@universe/rfc6902",
   "version": "4.0.0",
   "description": "Complete implementation of RFC6902 (patch and diff)",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "browser": "dist/rfc6902.min.js",
+  "private": true,
   "keywords": [
     "json",
     "patch",
